@@ -1,4 +1,5 @@
 body {
+	min-width: 960px;
 	margin: 0;
 	padding: 0;
 
@@ -67,7 +68,6 @@ input[type="radio"].visually-hidden {
 	padding: 10px 30px;
 
 	font: inherit;
-
 	text-align: center;
 	color: #ffffff;
 	vertical-align: middle;
@@ -103,7 +103,6 @@ input[type="radio"].visually-hidden {
 }
 
 .inner-page .main-navigation {
-	display: flex;
 	align-items: flex-start;
 	flex-direction: row;
 }
@@ -120,6 +119,10 @@ input[type="radio"].visually-hidden {
 	width: 111px;
 	height: 24px;
 	padding: 23px 20px;
+}
+
+.main-navigation .container {
+	display: flex;
 }
 
 .main-navigation-wrapper {
@@ -145,11 +148,20 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	flex-wrap: wrap;
 	width: 620px;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
 }
 
 .user-navigation {
 	display: flex;
+	justify-content: flex-end;
 	max-width: 140px;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
 }
 
 .inner-page .user-navigation {
